@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Chivo:ital,wght@1,700&display=swap");
 $color-light: #cdf300;
-$color-dark: #252524;
+// $color-dark: #252524;
+$color-dark: black;
+
 $color-gray: #ded9d2;
 $font-heading: "Dela Gothic One", cursive;
 $font-para: "Chivo", sans-serif;
@@ -480,7 +482,7 @@ html {
 .ourshop {
   
   background-color: $color-dark;
-  background: radial-gradient(farthest-side at 110% 25%, #cdf300 5%, transparent 25%), radial-gradient(farthest-side at 0% 85%, #cdf300 5%, #252524 15%);
+  background: radial-gradient(farthest-side at 110% 25%, #cdf300 5%, transparent 25%), radial-gradient(farthest-side at 0% 80%, #cdf300 5%, $color-dark 25%);
 
   .container{
     position: relative;
@@ -628,6 +630,7 @@ html {
     .change-head{
       padding-top: 80px;
       font-size: 6rem;
+      color: transparent;
       font-family: $font-heading;
       -webkit-text-stroke: 3px $color-light;
     }
@@ -754,7 +757,7 @@ html {
     overflow: hidden;
     .design-head {
       text-align: center;
-      -webkit-text-stroke: 3px $color-light;
+      -webkit-text-stroke: 5px $color-light;
       color: transparent;
       font-size: 16rem;
       font-family: $font-heading;
@@ -848,6 +851,7 @@ html {
       }
       .join-head {
         font-size: 6rem;
+        color: $color-dark;
         font-family: $font-heading;
         text-align: center;
         @media only screen and (max-width: 900px) {
@@ -875,7 +879,7 @@ html {
   }
 }
 footer {
-  background-color: #252524;
+  background-color: $color-dark;
   .footer-inner {
     margin: 0 auto;
     background: radial-gradient(

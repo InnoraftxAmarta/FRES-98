@@ -30,7 +30,7 @@ body {
 }
 
 .banner {
-  background-color: #252524;
+  background-color: black;
   height: 100vh;
   position: relative;
   background-repeat: none;
@@ -53,7 +53,7 @@ body {
   color: #ded9d2;
 }
 .banner .container-md .banner-div .btn {
-  color: #252524;
+  color: black;
   background-color: #cdf300;
   border-radius: 25px;
   padding: 10px 30px;
@@ -165,7 +165,7 @@ body {
   width: 100%;
   height: 100vh;
   position: absolute;
-  background: radial-gradient(circle at top, #cdf300 -30%, #252524 35%);
+  background: radial-gradient(circle at top, #cdf300 -30%, black 35%);
   background-repeat: none;
 }
 .banner .innerdiv .banner-head-left {
@@ -371,13 +371,13 @@ body {
   transform: rotate(135deg);
   opacity: 1;
   transition: all 0.5s;
-  background-color: #252524;
+  background-color: black;
 }
 .banner .nav-bar .open-menu .hamburger .ham::after {
   transform: rotate(90deg);
   top: 0;
   opacity: 1;
-  background-color: #252524;
+  background-color: black;
 }
 .banner .nav-bar .open-menu .hamburger .ham::before {
   transform: rotate(-90deg);
@@ -395,7 +395,7 @@ body {
 }
 .banner .nav-bar .open-menu .menu ul li a {
   text-decoration: none;
-  color: #252524;
+  color: black;
   -webkit-text-stroke: 1px #ded9d2;
   text-shadow: 3px 3px 2px #ded9d2;
   font-family: "Dela Gothic One", cursive;
@@ -498,8 +498,8 @@ body {
 }
 
 .ourshop {
-  background-color: #252524;
-  background: radial-gradient(farthest-side at 110% 25%, #cdf300 5%, transparent 25%), radial-gradient(farthest-side at 0% 85%, #cdf300 5%, #252524 15%);
+  background-color: black;
+  background: radial-gradient(farthest-side at 110% 25%, #cdf300 5%, transparent 25%), radial-gradient(farthest-side at 0% 80%, #cdf300 5%, black 25%);
 }
 .ourshop .container {
   position: relative;
@@ -617,7 +617,7 @@ body {
 .change {
   overflow: hidden;
   position: relative;
-  background-color: #252524;
+  background-color: black;
 }
 .change .change-flower-top {
   position: absolute;
@@ -642,6 +642,7 @@ body {
 .change .container .change-head {
   padding-top: 80px;
   font-size: 6rem;
+  color: transparent;
   font-family: "Dela Gothic One", cursive;
   -webkit-text-stroke: 3px #cdf300;
 }
@@ -745,7 +746,7 @@ body {
   font-family: "Chivo", sans-serif;
 }
 .fashion .row .col-md-6 .fashion-inner .fashion-btn {
-  color: #252524;
+  color: black;
   background-color: #cdf300;
   padding: 10px 30px;
   border-radius: 25px;
@@ -753,7 +754,7 @@ body {
 }
 
 .designers {
-  background-color: #252524;
+  background-color: black;
   position: relative;
 }
 .designers::after {
@@ -770,12 +771,12 @@ body {
 }
 .designers .designer-inner {
   margin: 0 auto;
-  background: radial-gradient(circle at top, #cdf300 -30%, #252524 35%);
+  background: radial-gradient(circle at top, #cdf300 -30%, black 35%);
   overflow: hidden;
 }
 .designers .designer-inner .design-head {
   text-align: center;
-  -webkit-text-stroke: 3px #cdf300;
+  -webkit-text-stroke: 5px #cdf300;
   color: transparent;
   font-size: 16rem;
   font-family: "Dela Gothic One", cursive;
@@ -854,10 +855,10 @@ body {
   transform: translate(-50%, -50%);
 }
 .join .join-left .join-inner .input-group {
-  color: #252524;
+  color: black;
   width: 70%;
   margin: 20px auto;
-  border: 2px solid #252524;
+  border: 2px solid black;
   font-family: "Chivo", sans-serif;
 }
 @media only screen and (max-width: 900px) {
@@ -870,7 +871,7 @@ body {
   background-color: #cdf300;
   border-color: transparent;
   font-size: 1rem;
-  color: #252524;
+  color: black;
   width: 85%;
 }
 .join .join-left .join-inner .input-group .btn i {
@@ -878,6 +879,7 @@ body {
 }
 .join .join-left .join-inner .join-head {
   font-size: 6rem;
+  color: black;
   font-family: "Dela Gothic One", cursive;
   text-align: center;
 }
@@ -907,11 +909,11 @@ body {
 }
 
 footer {
-  background-color: #252524;
+  background-color: black;
 }
 footer .footer-inner {
   margin: 0 auto;
-  background: radial-gradient(circle at bottom, #cdf300 -20%, #252524 45%);
+  background: radial-gradient(circle at bottom, #cdf300 -20%, black 45%);
   padding: 100px 0;
 }
 footer .footer-inner .row .col-md-3 h4 {
